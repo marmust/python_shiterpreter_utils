@@ -19,10 +19,14 @@ private:
         TOKEN_TRUE, TOKEN_FALSE, TOKEN_IF, TOKEN_ELSE,
         TOKEN_COMPARE_EQUALS, TOKEN_COMPARE_NOT_EQUALS,
         TOKEN_COMPARE_BIGGER, TOKEN_COMPARE_SMALLER,
+        TOKEN_COMPARE_BIGGER_EQUALS, TOKEN_COMPARE_SMALLER_EQUALS,
         TOKEN_AND, TOKEN_OR, TOKEN_NOT,
 
         // iteration
-        TOKEN_WHILE
+        TOKEN_WHILE,
+
+        // priority
+        TOKEN_OPEN_BRACKET, TOKEN_CLOSE_BRACKET
     };
 
     bool isToken(const std::string suspectedSubstring);

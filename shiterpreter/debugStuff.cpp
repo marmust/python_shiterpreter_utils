@@ -19,6 +19,8 @@ std::string tokenPurposeToString(TokenPurpose purpose)
         return "Iteration";
     case Assignment:
         return "Assignment";
+    case Priority:
+        return "Priority";
     case Name:
         return "Name";
     default:          

@@ -5,7 +5,7 @@ int main()
 {
 	Tokenizer* testTok = new Tokenizer();
 
-	printTokenVector(testTok->tokenize("niggahuzz=123"));
+	printTokenVector(testTok->tokenize(">=<===!=<><>=="));
 
 	return 0;
 }
