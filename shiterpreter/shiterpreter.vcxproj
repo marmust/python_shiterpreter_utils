@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="debugUtils.cpp" />
-    <ClInclude Include="debugUtils.h" />
+    <ClInclude Include="debugStuff.h" />
     <ClInclude Include="pythonStructureOutlines.h" />
     <ClInclude Include="token.h" />
     <ClInclude Include="tokenizer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="debugStuff.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="token.cpp" />
     <ClCompile Include="tokenizer.cpp" />

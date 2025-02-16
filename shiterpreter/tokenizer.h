@@ -25,10 +25,14 @@ private:
         TOKEN_WHILE
     };
 
+    bool isToken(const std::string suspectedSubstring);
+    TokenPurpose getTokenPurpose(const std::string tokenString) const;
+    Token* getImmediateMatch(const std::string line);
+
 public:
     // ctor / dtor
     Tokenizer();
     virtual ~Tokenizer();
 
-	std::vector<Token> tokenize(std::string line);
+	std::vector<Token> tokenize(const std::string line);
 };
